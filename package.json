@@ -1,0 +1,25 @@
+{
+  "name": "vuepress-blog",
+  "version": "1.0.0",
+  "description": "blog using vuepress",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run docs:dev",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/syaring/vuepress-blog.git"
+  },
+  "author": "syaring",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/syaring/vuepress-blog/issues"
+  },
+  "homepage": "https://github.com/syaring/vuepress-blog#readme",
+  "devDependencies": {
+    "vuepress": "^2.0.0-beta.66"
+  }
+}
