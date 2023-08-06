@@ -6,29 +6,33 @@ export default defineUserConfig({
   title: 'syaring\'s blog',
   description: 'blog service using vuepress',
   theme: defaultTheme({
-    sidebar: [
-      {
-        text: '테스트 1',
-        link: '/TIL',
-      },
-      {
-        text: '테스트 2',
-        link: '/test2',
-      }
-    ],
     navbar: [
       {
         text: 'Home',
         link: '/',
       },
       {
-        text: 'TIL',
-        link: '/til'
+        text: 'workout 🏋️‍♀️',
+        link: '/workout/running/photo'
       },
       {
         text: 'GitHub',
         link: 'https://github.com/syaring/vuepress-blog',
-      }
+      },
     ],
+    sidebar: {
+      '/home/': [
+        {
+          text: '홈',
+          link: '/',
+        }
+      ],
+      '/workout/': [
+        {
+          text: 'running',
+          children: ['/workout/running/photo.md', '/workout/running/2023_summer_challenge.md'],
+        },
+      ]
+    },
   }),
 });
