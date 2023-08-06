@@ -4,7 +4,7 @@
   "description": "blog using vuepress",
   "main": "index.js",
   "scripts": {
-    "start": "npm run docs:dev",
+    "start": "vuepress dev docs",
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
     "test": "echo \"Error: no test specified\" && exit 1"
