@@ -13,6 +13,7 @@ description: 러닝 기타 등등
 
 # Records
 ## week 1
+<Calendar package="@vuepress/client" />
 * days: 2023-08-06 ~ 2023-08-12
 * total: 23.01 km
 <details>
