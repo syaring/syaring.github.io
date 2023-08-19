@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/syaring/vuepress-blog.git"
+    "url": "git+https://github.com/syaring/syaring.github.io.git"
   },
   "author": "syaring",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/syaring/vuepress-blog/issues"
+    "url": "https://github.com/syaring/syaring.github.io/issues"
   },
-  "homepage": "https://github.com/syaring/vuepress-blog#readme",
+  "homepage": "https://github.com/syaring/syaring.github.io#readme",
   "devDependencies": {
     "typescript": "^5.1.6",
     "vuepress": "^2.0.0-beta.66"
