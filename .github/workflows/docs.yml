@@ -31,6 +31,8 @@ jobs:
           # cache deps for pnpm
           cache: pnpm
       - run: npm install -D vuepress
+      - run: npm install -D vue
+
 
       # run build script
       - name: Build VuePress site
