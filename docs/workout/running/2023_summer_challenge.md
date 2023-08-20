@@ -1,8 +1,18 @@
 ---
 lang: en-US
 title: 45RC 2023 여름방학 챌린지 기록
-description: 러닝 기타 등등
+description: "러닝크루, 45RC, 여름방학, 러닝, 달리기"
+meta:
+  - name: description
+    content: 러닝크루 45RC의 여름방학 챌린지 보드
+  - property: og:title
+    content: 45RC 2023 summer challenge
+  - property: og:description
+    content: 러닝크루 45RC의 여름방학 챌린지 보드
+  - property: og:url
+    content: https://syaring.github.io/workout/running/2023_summer_challenge.html
 ---
+
 # Members
 ||name|instagram|
 |--|---|---|
