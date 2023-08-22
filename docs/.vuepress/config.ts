@@ -1,5 +1,6 @@
 import { defineUserConfig } from 'vuepress';
 import { defaultTheme } from '@vuepress/theme-default'
+import { sitemapPlugin } from 'vuepress-plugin-sitemap2';
 
 export default defineUserConfig({
   lang: 'en-US',
@@ -36,4 +37,7 @@ export default defineUserConfig({
       ]
     },
   }),
+  plugins: [
+    sitemapPlugin({ hostname: "https://syaring.github.io" }),
+  ],
 });
