@@ -7,6 +7,15 @@ export default defineUserConfig({
   title: 'syaring\'s blog',
   description: 'blog service using vuepress',
   base: "/",
+  head:[
+    [
+      "meta",
+      {
+        name: "google-site-verification",
+        content: "PT_DktRRB6QqPULwXP3trAh5euS3_n--_ahzb0IydJ0",
+      }
+    ]
+  ],
   theme: defaultTheme({
     navbar: [
       {
