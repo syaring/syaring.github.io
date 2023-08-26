@@ -1,6 +1,7 @@
 import { defineUserConfig } from 'vuepress';
 import { defaultTheme } from '@vuepress/theme-default'
 import { sitemapPlugin } from 'vuepress-plugin-sitemap2';
+import { googleAnalyticsPlugin } from '@vuepress/plugin-google-analytics'
 
 export default defineUserConfig({
   lang: 'en-US',
@@ -48,5 +49,6 @@ export default defineUserConfig({
   }),
   plugins: [
     sitemapPlugin({ hostname: "https://syaring.github.io" }),
+    googleAnalyticsPlugin({ id: "G-FV07M77VYQ" }),
   ],
 });
