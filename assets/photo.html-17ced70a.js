@@ -1,0 +1,1 @@
+import{_ as e,o,c as t,a as c}from"./app-6b55cdaa.js";const _={},s=c("p",null,"내가 찍은 사진들",-1),n=[s];function a(r,l){return o(),t("div",null,n)}const f=e(_,[["render",a],["__file","photo.html.vue"]]);export{f as default};

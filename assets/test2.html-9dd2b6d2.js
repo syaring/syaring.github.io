@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as s,a as c}from"./app-6b55cdaa.js";const o={},_=c("p",null,"테스트 페이지 2",-1),n=[_];function a(r,l){return t(),s("div",null,n)}const f=e(o,[["render",a],["__file","test2.html.vue"]]);export{f as default};
